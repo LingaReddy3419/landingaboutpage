@@ -1,0 +1,28 @@
+*::before::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.MuiTimelineItem-root::before{
+    display: none;
+}
+
+.explore {
+    margin:8rem 0 -8rem 0;
+    border-radius: 50px;
+    background: transparent;
+    border: 1px solid white;
+    padding: 0.15rem 1.6rem;
+    display: flex;
+    align-items: center;
+    rotate: 90deg;
+  }
+
+  .explore svg{
+    margin-left: auto;
+    color: white;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 100%;
+  }
